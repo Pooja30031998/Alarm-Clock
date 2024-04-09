@@ -3,15 +3,15 @@ Creating an alarm clock. Using ONLY vanilla Javascript, no libraries or framewor
 
 Features:
 Clock face : 
-Clock showing the current time (seconds,mins,hrs should change as time changes)
+1. Clock showing the current time (seconds,mins,hrs should change as time changes)
 
 Set Alarm : 
-Provide input boxes to set an alarm (hr,min,sec, am/pm)
-Once the sets the time and click “Set Alarm” button, add that alarm to the alarms list below
-When the alarm goes of just use JS alert function to alert in the browser
+1. Provide input boxes to set an alarm (hr,min,sec, am/pm)
+2. Once the sets the time and click “Set Alarm” button, add that alarm to the alarms list below
+3. When the alarm goes of just use JS alert function to alert in the browser
 
 Alarms list : 
-Display a list of all the alarms set by user
-Delete alarm
-For each alarm give a delete button to delete the alarm
-When the user deletes an alarm make sure it “does not alerts the user”
+1. Display a list of all the alarms set by user
+2. Delete alarm
+3. For each alarm give a delete button to delete the alarm
+4. When the user deletes an alarm make sure it “does not alerts the user”
