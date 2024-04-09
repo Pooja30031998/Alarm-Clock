@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(20, 192, 214);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+}
+header i {
+  font-size: 80px;
+}
+
+main {
+  text-align: center;
+  font-weight: 700;
+  line-height: 45px;
+  font-size: large;
+  width: 40vw;
+  border: solid black 3px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10%;
+  background-color: rgb(192, 199, 201);
+}
+
+#hours,
+#minutes,
+#seconds,
+#am_pm {
+  border-radius: 10%;
+  height: 25px;
+  border: solid black 2px;
+}
+
+.setAlarm,
+.delete {
+  padding: 7px;
+  border: solid black 2px;
+  border-radius: 10%;
+  cursor: pointer;
+  font-weight: 700;
+  background-color: rgb(116, 165, 242);
+}
+
+.alarm {
+  display: flex;
+  justify-content: space-around;
+  border: solid black 2px;
+  padding: 5px;
+  margin-top: 20px;
+  background-color: aliceblue;
+  border-radius: 15%;
+}
+
+.currentTime {
+  font-size: xx-large;
+  margin-bottom: 10px;
+}
